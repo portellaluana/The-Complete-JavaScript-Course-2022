@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header>
+        <h1>adivinhe meu número</h1>
+        <p>números entre 1 e 10</p>
+        <h2 class="numeroSecreto">?</h2>
+    </header>
+
+    <main>
+        <section class="esquerda">
+            <input type="number" placeholder="0" class="entradaTentativa">
+            <button class="tentar">tentar</button>
+        </section>
+        <section class="direita">
+            <p class="mensagem">tenta aí...</p>
+            <p class="acabou">tens <span class="tentativa">10</span> tentativas</p>
+            <button class="atualizar">de novo</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body {
+  background-color: #2c3333;
+  text-align: center;
+  justify-content: center;
+  display: block;
+}
+
+header h1 {
+  color: #1854a7;
+  font-size: 24px;
+  font-family: "Press Start 2P", cursive;
+  margin: 40px 40px 16px 40px;
+}
+
+header h2 {
+  background-color: #1854a7;
+  color: #f5f2e7;
+  font-size: 48px;
+  font-family: "Press Start 2P", cursive;
+  padding: 60px;
+  margin: 40px;
+}
+
+header p {
+  color: #1854a7;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+
+main {
+  color: #1854a7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.esquerda {
+  flex-direction: column;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+main .entradaTentativa {
+  background-color: transparent;
+  border: 2px solid #1854a7;
+  color: #1854a7;
+  font-family: "Press Start 2P", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  width: 160px;
+  height: 60px;
+  text-align: center;
+  padding: 8px;
+}
+
+main input::placeholder {
+  color: #1854a7;
+  font-family: "Press Start 2P", cursive;
+}
+
+button {
+  background-color: #1854a7;
+  color: #f5f2e7;
+  font-size: 16px;
+  font-weight: 400;
+  width: 160px;
+  height: 60px;
+  font-family: "Press Start 2P", cursive;
+  margin: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+main p {
+  color: #f5f2e7;
+  font-size: 16px;
+  font-family: "Press Start 2P", cursive;
+  text-align: left;
+  margin: 20px;
+}
